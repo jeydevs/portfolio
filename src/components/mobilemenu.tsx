@@ -5,11 +5,11 @@ import { usePathname } from "next/navigation";
 import { House, FolderKanban, Newspaper, Mail, Settings } from "lucide-react";
 
 const links = [
-    { href: "/", label: "Home", icon: House },
-    { href: "/proyectos", label: "Projects", icon: FolderKanban },
+    { href: "/", label: "Inicio", icon: House },
+    { href: "/projects", label: "Proyectos", icon: FolderKanban },
     { href: "/blog", label: "Blog", icon: Newspaper },
-    { href: "/contacto", label: "Contacto", icon: Mail },
-    { href: "/configuración", label: "Settings", icon: Settings },
+    { href: "/contact", label: "Contacto", icon: Mail },
+    { href: "/settings", label: "Configuración", icon: Settings },
 ];
 
 export function Menu() {

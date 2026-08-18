@@ -20,7 +20,7 @@ const links = [
     { href: "/projects", label: "Proyectos", icon: FolderKanban },
     { href: "/blog", label: "Blog", icon: Newspaper },
     { href: "/contact", label: "Contacto", icon: Mail },
-    { href: "/settings", label: "Settings", icon: Settings },
+    { href: "/settings", label: "Configuración", icon: Settings },
 ];
 
 const STORAGE_KEY = "sidebar-collapsed";
