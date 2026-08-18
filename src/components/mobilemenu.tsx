@@ -6,10 +6,10 @@ import { House, FolderKanban, Newspaper, Mail, Settings } from "lucide-react";
 
 const links = [
     { href: "/", label: "Home", icon: House },
-    { href: "/projects", label: "Projects", icon: FolderKanban },
+    { href: "/proyectos", label: "Projects", icon: FolderKanban },
     { href: "/blog", label: "Blog", icon: Newspaper },
-    { href: "/contact", label: "Contacto", icon: Mail },
-    { href: "/settings", label: "Settings", icon: Settings },
+    { href: "/contacto", label: "Contacto", icon: Mail },
+    { href: "/configuración", label: "Settings", icon: Settings },
 ];
 
 export function Menu() {
